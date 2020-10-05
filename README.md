@@ -56,8 +56,10 @@ This is how our CNN architecture looks like !
     model.add(Dropout(0.25)) model.add(Conv2D(filters=128, kernel_size=(3,3), padding='same', activation='relu', name='Conv2D_5')) 
     model.add(Conv2D(filters=128, kernel_size=(3,3), activation='relu', name='Conv2D_6')) 
     model.add(MaxPool2D(pool_size=(2,2), name='Maxpool_3')) 
-    model.add(Flatten()) model.add(Dense(units=512, activation='relu', name='Dense_1')) 
-    model.add(Dropout(0.5)) model.add(Dense(units=128, activation='relu', name='Dense_2')) 
+    model.add(Flatten()) 
+    model.add(Dense(units=512, activation='relu', name='Dense_1')) 
+    model.add(Dropout(0.5)) 
+    model.add(Dense(units=128, activation='relu', name='Dense_2')) 
     model.add(Dense(units=no_of_classes, activation='softmax', name='Output'))   
 ```
 [Back To The Top](#plants-identification-by-dl)
