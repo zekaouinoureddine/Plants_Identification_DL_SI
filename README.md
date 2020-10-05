@@ -3,7 +3,7 @@ Plants Identification by Deep Learning at SI
 
 
 ### Table of Contents
-we'll go through the next steps, but don't forget to take a look at the [Jupyter Notebooke file](https://github.com/zekaouinoureddine/Plants_Identification_DL_SI/blob/main/Plants%20Idenification%20(1).ipynb).
+we'll go through the next steps, but don't forget to take a look at the [Jupyter Notebook file](https://github.com/zekaouinoureddine/Plants_Identification_DL_SI/blob/main/Plants%20Idenification%20(1).ipynb).
 
 - [Introduction](#introduction)
 - [Technologies](#technologies)
