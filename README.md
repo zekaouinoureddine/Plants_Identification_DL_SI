@@ -50,8 +50,8 @@ Our project aims to create a solution that can identify a plant in an automated 
     model.add(Conv2D(filters=32, kernel_size=(3,3), activation='relu', name='Conv2D_2')) 
     model.add(MaxPool2D(pool_size=(2,2), name='Maxpool_1')) model.add(Dropout(0.25)) 
     model.add(Conv2D(filters=64, kernel_size=(3,3), padding='same', activation='relu', name='Conv2D_3')) 
-    model.add(Conv2D(filters=64, kernel_size=(3,3), activation='relu', 
-    name='Conv2D_4')) model.add(MaxPool2D(pool_size=(2,2), name='Maxpool_2')) 
+    model.add(Conv2D(filters=64, kernel_size=(3,3), activation='relu', name='Conv2D_4')) 
+    model.add(MaxPool2D(pool_size=(2,2), name='Maxpool_2')) 
     model.add(Dropout(0.25)) model.add(Conv2D(filters=128, kernel_size=(3,3), padding='same', activation='relu', name='Conv2D_5')) 
     model.add(Conv2D(filters=128, kernel_size=(3,3), activation='relu', name='Conv2D_6')) 
     model.add(MaxPool2D(pool_size=(2,2), name='Maxpool_3')) 
