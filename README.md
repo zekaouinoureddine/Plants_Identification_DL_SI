@@ -28,7 +28,7 @@ Our project aims to create a solution that can identify a plant in an automated 
 [Back To The Top](#plants-identification-by-dl)
 
 ---
-
+This is how our CNN architecture looks like !
 #### CNN Architecture
 ![](architecture.png)
 
