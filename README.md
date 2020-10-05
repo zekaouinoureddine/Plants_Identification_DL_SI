@@ -46,7 +46,8 @@ Our project aims to create a solution that can identify a plant in an automated 
 #### CNN Architecture Implementation 
 
 ```python
-    model = Sequential() model.add(Conv2D(filters=32, kernel_size=(3,3), padding='same', input_shape=X_train.shape[1:], activation='relu', name='Conv2D_1'))    
+    model = Sequential() 
+    model.add(Conv2D(filters=32, kernel_size=(3,3), padding='same', input_shape=X_train.shape[1:], activation='relu', name='Conv2D_1'))    
     model.add(Conv2D(filters=32, kernel_size=(3,3), activation='relu', name='Conv2D_2')) 
     model.add(MaxPool2D(pool_size=(2,2), name='Maxpool_1')) model.add(Dropout(0.25)) 
     model.add(Conv2D(filters=64, kernel_size=(3,3), padding='same', activation='relu', name='Conv2D_3')) 
