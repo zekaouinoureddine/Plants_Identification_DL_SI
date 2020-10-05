@@ -30,8 +30,7 @@ Our project aims to create a solution that can identify a plant in an automated 
 ---
 
 #### CNN Architecture
-This how our architecture looks like !
-![](CNN AR.png)
+![](architecture.png)
 
 #### Required Libraries
 
@@ -48,12 +47,17 @@ This how our architecture looks like !
 
 ```python
     model = Sequential() model.add(Conv2D(filters=32, kernel_size=(3,3), padding='same', input_shape=X_train.shape[1:], activation='relu', name='Conv2D_1'))    
-    model.add(Conv2D(filters=32, kernel_size=(3,3), activation='relu', name='Conv2D_2')) model.add(MaxPool2D(pool_size=(2,2), name='Maxpool_1')) model.add(Dropout(0.25)) 
-    model.add(Conv2D(filters=64, kernel_size=(3,3), padding='same', activation='relu', name='Conv2D_3')) model.add(Conv2D(filters=64, kernel_size=(3,3), activation='relu', 
-    name='Conv2D_4')) model.add(MaxPool2D(pool_size=(2,2), name='Maxpool_2')) model.add(Dropout(0.25)) model.add(Conv2D(filters=128, kernel_size=(3,3), padding='same', 
-    activation='relu', name='Conv2D_5')) model.add(Conv2D(filters=128, kernel_size=(3,3), activation='relu', name='Conv2D_6')) model.add(MaxPool2D(pool_size=(2,2), 
-    name='Maxpool_3')) model.add(Flatten()) model.add(Dense(units=512, activation='relu', name='Dense_1')) model.add(Dropout(0.5)) model.add(Dense(units=128, activation='relu', 
-    name='Dense_2')) model.add(Dense(units=no_of_classes, activation='softmax', name='Output'))   
+    model.add(Conv2D(filters=32, kernel_size=(3,3), activation='relu', name='Conv2D_2')) 
+    model.add(MaxPool2D(pool_size=(2,2), name='Maxpool_1')) model.add(Dropout(0.25)) 
+    model.add(Conv2D(filters=64, kernel_size=(3,3), padding='same', activation='relu', name='Conv2D_3')) 
+    model.add(Conv2D(filters=64, kernel_size=(3,3), activation='relu', 
+    name='Conv2D_4')) model.add(MaxPool2D(pool_size=(2,2), name='Maxpool_2')) 
+    model.add(Dropout(0.25)) model.add(Conv2D(filters=128, kernel_size=(3,3), padding='same', activation='relu', name='Conv2D_5')) 
+    model.add(Conv2D(filters=128, kernel_size=(3,3), activation='relu', name='Conv2D_6')) 
+    model.add(MaxPool2D(pool_size=(2,2), name='Maxpool_3')) 
+    model.add(Flatten()) model.add(Dense(units=512, activation='relu', name='Dense_1')) 
+    model.add(Dropout(0.5)) model.add(Dense(units=128, activation='relu', name='Dense_2')) 
+    model.add(Dense(units=no_of_classes, activation='softmax', name='Output'))   
 ```
 [Back To The Top](#plants-identification-by-dl)
 
@@ -63,4 +67,4 @@ This how our architecture looks like !
 
 - LinkedIn - [Nour Eddine ZEKAOUI](https://www.linkedin.com/in/nour-eddine-zekaoui-ba43b1177/)
 
-[Back To The Top](#read-me-template)
+[Back To The Top](#plants-identification-by-dl)
