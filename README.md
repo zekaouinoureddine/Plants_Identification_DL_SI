@@ -92,4 +92,8 @@ You can find the source code [here](https://github.com/zekaouinoureddine/Plantes
 
 - LinkedIn - [Nour Eddine ZEKAOUI](https://www.linkedin.com/in/nour-eddine-zekaoui-ba43b1177/)
 
+---
+
+#### Thank you for your intrest ☻
+
 [Back To The Top](#plants-identification-by-dl)
