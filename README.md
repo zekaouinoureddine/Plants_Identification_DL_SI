@@ -3,7 +3,7 @@ Plants Identification by Deep Learning at SI which is perfectly done and explain
 
 
 ### Table of Contents
-we'll go through the next steps, but don't forget to take a look at the [Jupyter Notebook file](https://github.com/zekaouinoureddine/Plants_Identification_DL_SI/blob/main/Plants%20Idenification%20VF.ipynb).
+We'll go through the next steps, but don't forget to take a look at the [Jupyter Notebook file](https://github.com/zekaouinoureddine/Plants_Identification_DL_SI/blob/main/Plants%20Idenification%20VF.ipynb).
 
 - [Introduction](#introduction)
 - [Technologies](#technologies)
@@ -20,7 +20,7 @@ we'll go through the next steps, but don't forget to take a look at the [Jupyter
 
 "Automated species identification was presented 15 years ago as a challenging but very promising solution for the development of new research activities in Taxonomy, Biology or Ecology. However, identifying a plant for a botanist means associating a scientific name to an individual plant. More precisely, that means assigning that individual plant to a group, called a taxon. Such taxon had a name selected according to a set of rules. The delimitation of taxa and the scientific names applying to them are the result of a process called taxonomy (or systematics)".[Taken from](https://hal.archives-ouvertes.fr/hal-01913277/document)
 
-Our project aims to create a solution that can identify a plant in an automated way. so I’m going to implement full CNN from scratch in Keras with a TensorFlow backend. This implementation will be performed on a dataset of five different kind flower. These flowers are daisy, dandelion, rose, sunflower and tulip.
+Our project aims to create a solution that can identify a plant in an automated way. so I’m going to implement full CNN from scratch using Keras with a TensorFlow backend. This implementation will be performed on a dataset of five different kind flower. These flowers are daisy, dandelion, rose, sunflower and tulip.
 
 #### Technologies
 
