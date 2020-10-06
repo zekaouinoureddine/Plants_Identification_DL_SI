@@ -10,6 +10,7 @@ we'll go through the next steps, but don't forget to take a look at the [Jupyter
 - [CNN Architecture](#cnn-architecture)
 - [Required Libraries](#required-libraries)
 - [CNN Architecture Implementation](#cnn-architecture-implementation)
+- [Plotting Results](#plotting-results)
 - [Author Info](#author-info)
 
 ---
@@ -64,6 +65,21 @@ This is how our CNN architecture looks like !
     model.add(Dense(units=128, activation='relu', name='Dense_2')) 
     model.add(Dense(units=no_of_classes, activation='softmax', name='Output'))   
 ```
+[Back To The Top](#plants-identification-by-dl)
+
+---
+
+#### Plotting Results
+![](graph.png)
+
+- From the Training and Validation Accuracy graph above, our model does not seem to be overfitted, which is great!
+- Also, Our Training and Validation Loss graph above also indicates a good learning rate.
+
+![](matrix.png)
+
+Note that, 0,1,2,3,4 values in this matrix means daisies, dandelions, roses, sunflowers, tulips respectively
+- Our confusion matrix indicates that a lot of prediction errors came from distinguishing between rose and tulip.
+
 [Back To The Top](#plants-identification-by-dl)
 
 ---
