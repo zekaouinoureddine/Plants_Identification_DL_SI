@@ -11,6 +11,7 @@ we'll go through the next steps, but don't forget to take a look at the [Jupyter
 - [Required Libraries](#required-libraries)
 - [CNN Architecture Implementation](#cnn-architecture-implementation)
 - [Plotting Results](#plotting-results)
+- [Model Deployment](#model-deployment)
 - [Author Info](#author-info)
 
 ---
@@ -25,8 +26,6 @@ Our project aims to create a solution that can identify a plant in an automated 
 
 - Python (Keras, Scikit-learn, NumPy, Seaborn, and Matplotlib)
 - Google Colab (Colaboratory)
-
-[Back To The Top](#plants-identification-by-dl)
 
 ---
 This is how our CNN architecture looks like !
@@ -65,7 +64,6 @@ This is how our CNN architecture looks like !
     model.add(Dense(units=128, activation='relu', name='Dense_2')) 
     model.add(Dense(units=no_of_classes, activation='softmax', name='Output'))   
 ```
-[Back To The Top](#plants-identification-by-dl)
 
 ---
 
@@ -80,8 +78,12 @@ This is how our CNN architecture looks like !
 Note that, 0,1,2,3,4 values in this matrix means daisies, dandelions, roses, sunflowers, tulips respectively
 - Our confusion matrix indicates that a lot of prediction errors came from distinguishing between rose and tulip.
 
-[Back To The Top](#plants-identification-by-dl)
+---
+#### Model Deploymen
+Given the impressive results we obtained, we are going to deploy our model using django framework in python. Our simple web app will allow us to identify a plant by loading it, then we can easily see its type (or classe) accompanied by a measure of certainty (Probability).
+here you can see how our web app interface looks like:
 
+![](webapp.png)
 ---
 
 ## Author Info
