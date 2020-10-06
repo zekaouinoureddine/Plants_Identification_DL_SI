@@ -1,4 +1,4 @@
-# Plants Identification by DL
+# Plants Identification by Deep Learning
 Plants Identification by Deep Learning at SI which is perfectly done and explained in [Plants Idenification](https://github.com/zekaouinoureddine/Plants_Identification_DL_SI/blob/main/Plants%20Idenification%20VF.ipynb) Jupyter NoteBook file.
 
 
