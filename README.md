@@ -24,7 +24,7 @@ Our project aims to create a solution that can identify a plant in an automated 
 
 #### Technologies
 
-- Python (Keras, Scikit-learn, NumPy, Seaborn, and Matplotlib)
+- Python (Keras, Scikit-learn, Numpy, Pandas, Seaborn, and Matplotlib)
 - Google Colab (Colaboratory)
 
 ---
