@@ -85,7 +85,7 @@ here you can see how our web app interface looks like:
 
 ![](webapp.PNG)
 
-You can find the source code [here](https://github.com/zekaouinoureddine/Plantes_Identification_DL_Model_Deployment_Django)!
+You can find the source code [here](https://github.com/zekaouinoureddine/Plants_Identification_DL_Model_Deployment_Django)!
 ---
 
 ## Author Info
