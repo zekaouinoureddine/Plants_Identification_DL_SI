@@ -37,7 +37,7 @@ This is how our CNN architecture looks like !
 ```python
     """
       Here we are going to use Keras library 
-      with tensorflow backend
+      with a tensorflow backend
     """
     import keras
     from keras.models import Sequential
