@@ -1,12 +1,13 @@
 # Plants Identification by Deep Learning
->Plants Identification by Deep Learning at SI which is perfectly done and explained in [Plants Identification VF](https://github.com/zekaouinoureddine/Plants_Identification_DL_SI/blob/main/Plants%20Idenification%20VF.ipynb) Jupyter NoteBook file.
+>Plants Identification by Deep Learning at SI which is perfectly done and explained in [Plants Identification VF](./notebooks/Plants Idenification VF.ipynb) Jupyter NoteBook file.
 
 
 ### Table of Contents
-We'll go through the next steps, but don't forget to take a look at the [Jupyter Notebook file](https://github.com/zekaouinoureddine/Plants_Identification_DL_SI/blob/main/Plants%20Idenification%20VF.ipynb).
+We'll go through the next steps, but don't forget to take a look at the [Jupyter Notebook file](./notebooks/Plants_Idenification_VF.ipynb).
 
 - [Introduction](#introduction)
 - [Technologies](#technologies)
+- [Data Section](#data-section)
 - [CNN Architecture](#cnn-architecture)
 - [Required Libraries](#required-libraries)
 - [CNN Architecture Implementation](#cnn-architecture-implementation)
@@ -29,8 +30,20 @@ Our project aims to create a solution that can identify a plant in an automated 
 
 ---
 This is how our CNN architecture looks like !
+
+#### Data Section
+
+* ***Context***
+
+This dataset contains 4242 images of flowers. The data collection is based on the data flicr, google images, yandex images. You can use this datastet to recognize plants from the photo. This dataset is available on [kaggle|LINK](https://www.kaggle.com/alxmamaev/flowers-recognition).
+
+* ***Content***
+
+The pictures are divided into five classes: chamomile, tulip, rose, sunflower, dandelion. For each class there are about 800 photos. Photos are not high resolution, about 320x240 pixels. Photos are not reduced to a single size, they have different proportions!
+
+> Many thanks to [@omonimus1](https://github.com/omonimus1) for the [reminder](https://github.com/zekaouinoureddine/Plants_Identification_DL_SI/issues/1)
 #### CNN Architecture
-![](architecture.png)
+![architecture.png](./assets/architecture.png)
 
 #### Required Libraries
 
@@ -68,12 +81,12 @@ This is how our CNN architecture looks like !
 ---
 
 #### Plotting Results
-![](graph.png)
+![graph.png](./assets/graph.png)
 
 - From the Training and Validation Accuracy graph above, our model does not seem to be overfitted, which is great!
 - Also, Our Training and Validation Loss graph above also indicates a good learning rate.
 
-![](matrix.png)
+![matrix.png](./assets/matrix.png)
 
 Note that, 0,1,2,3,4 values in this matrix means daisies, dandelions, roses, sunflowers, tulips respectively
 - Our confusion matrix indicates that a lot of prediction errors came from distinguishing between rose and tulip.
@@ -83,7 +96,7 @@ Note that, 0,1,2,3,4 values in this matrix means daisies, dandelions, roses, sun
 Given the impressive results we obtained, we are going to deploy our model using django framework in python. Our simple web app will allow us to identify a plant by loading it, then we can easily see its type (or classe) accompanied by a measure of certainty (Probability).
 here you can see how our web app interface looks like:
 
-![](webapp.PNG)
+![webapp.PNG](./assets/webapp.PNG)
 
 You can find the source code [here](https://github.com/zekaouinoureddine/Plants_Identification_DL_Model_Deployment_Django)!
 ---
@@ -91,9 +104,10 @@ You can find the source code [here](https://github.com/zekaouinoureddine/Plants_
 ## Author Info
 
 - LinkedIn - [Nour Eddine ZEKAOUI](https://www.linkedin.com/in/nour-eddine-zekaoui-ba43b1177/)
+- Twitter - [@NZekaoui](https://twitter.com/NZekaoui)
 
 ---
 
 #### Thank you for your intrest ☻
 
-[Back To The Top](#plants-identification-by-deep-learning)
+[BACK TO THE TOP](#plants-identification-by-deep-learning)
