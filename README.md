@@ -41,7 +41,7 @@ This dataset contains 4242 images of flowers. The data collection is based on th
 
 The pictures are divided into five classes: chamomile, tulip, rose, sunflower, dandelion. For each class there are about 800 photos. Photos are not high resolution, about 320x240 pixels. Photos are not reduced to a single size, they have different proportions!
 
-> Many thanks to [@omonimus1](https://github.com/omonimus1) for the [reminder](https://github.com/zekaouinoureddine/Plants_Identification_DL_SI/issues/1)
+> Many thanks to **[Davide Pollicino](https://github.com/omonimus1)** for the **[reminder](https://github.com/zekaouinoureddine/Plants_Identification_DL_SI/issues/1)**
 #### CNN Architecture
 ![architecture.png](./assets/architecture.png)
 
