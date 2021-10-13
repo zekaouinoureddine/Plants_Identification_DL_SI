@@ -35,7 +35,7 @@ This is how our CNN architecture looks like !
 
 * ***Context***
 
-This dataset contains 4242 images of flowers. The data collection is based on the data flicr, google images, yandex images. You can use this datastet to recognize plants from the photo. This dataset is available on [kaggle|LINK](https://www.kaggle.com/alxmamaev/flowers-recognition).
+This dataset contains 4242 images of flowers. The data collection is based on the data flicr, google images, yandex images. You can use this datastet to recognize plants from the photo. This dataset is available on [kaggle|LINK](https://www.kaggle.com/alxmamaev/flowers-recognition) or you can access it from this [repo](./data)
 
 * ***Content***
 
