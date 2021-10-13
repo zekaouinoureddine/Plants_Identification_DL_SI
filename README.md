@@ -24,10 +24,6 @@ Our project aims to create a solution that can identify a plant in an automated 
 
 - Python (Keras, Scikit-learn, Numpy, Pandas, Seaborn, and Matplotlib)
 - Google Colab (Colaboratory)
-
----
-This is how our CNN architecture looks like !
-
 ### Data Section
 
 * ***Context***
@@ -40,6 +36,8 @@ The pictures are divided into five classes: chamomile, tulip, rose, sunflower, d
 
 > Many thanks to **[Davide Pollicino](https://github.com/omonimus1)** for the **[reminder](https://github.com/zekaouinoureddine/Plants_Identification_DL_SI/issues/1)**
 ### CNN Architecture
+This is how our CNN architecture looks like !
+
 ![architecture.png](./assets/architecture.png)
 
 #### Required Libraries
