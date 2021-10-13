@@ -28,7 +28,7 @@ Our project aims to create a solution that can identify a plant in an automated 
 
 * ***Context***
 
-This dataset contains 4242 images of flowers. The data collection is based on the data flicr, google images, yandex images. You can use this datastet to recognize plants from the photo. This dataset is available on [kaggle|LINK](https://www.kaggle.com/alxmamaev/flowers-recognition) or you can access it from this [repo](./data)
+This dataset contains 4242 images of flowers. The data collection is based on the data flicr, google images, yandex images. You can use this datastet to recognize plants from the photo. This dataset is available on [KAGGLE | LINK](https://www.kaggle.com/alxmamaev/flowers-recognition) or you can access it from this [repo](./data)
 
 * ***Content***
 
